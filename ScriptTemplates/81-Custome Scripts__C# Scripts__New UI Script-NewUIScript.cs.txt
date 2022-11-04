@@ -1,0 +1,31 @@
+// /*-------------------------------------------
+// ---------------------------------------------
+// Creation Date: #CREATIONDATE#
+// Author: #DEVELOPER#
+// Description: #PROJECTNAME#
+// ---------------------------------------------
+// -------------------------------------------*/
+
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+namespace #NAMESPACE#
+{
+	public class #SCRIPTNAME# : MonoBehaviour
+	{
+		public void ButtonPressed()
+		{
+			#NOTRIM#
+		}
+	
+		public void OpenWindow()
+		{
+			gameObject.SetActive(true);
+		}
+	
+		public void CloseWindow()
+		{
+			gameObject.SetActive(false);
+		}
+	}
+}

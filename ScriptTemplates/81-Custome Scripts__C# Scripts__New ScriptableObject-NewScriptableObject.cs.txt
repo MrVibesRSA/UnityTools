@@ -1,0 +1,18 @@
+// /*-------------------------------------------
+// ---------------------------------------------
+// Creation Date: #CREATIONDATE#
+// Author: #DEVELOPER#
+// Description: #PROJECTNAME#
+// ---------------------------------------------
+// -------------------------------------------*/
+
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+	[CreateAssetMenu(fileName="New #SCRIPTNAME#",menuName="My Assets/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : ScriptableObject
+	{
+		#NOTRIM#
+	}
+}

@@ -1,0 +1,15 @@
+// /*-------------------------------------------
+// ---------------------------------------------
+// Creation Date: #CREATIONDATE#
+// Author: #DEVELOPER#
+// Description: #PROJECTNAME#
+// ---------------------------------------------
+// -------------------------------------------*/
+
+namespace #NAMESPACE#
+{
+	public interface #SCRIPTNAME#
+	{
+			
+	}
+}

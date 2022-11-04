@@ -1,0 +1,25 @@
+// /*-------------------------------------------
+// ---------------------------------------------
+// Creation Date: #CREATIONDATE#
+// Author: #DEVELOPER#
+// Description: #PROJECTNAME#
+// ---------------------------------------------
+// -------------------------------------------*/
+
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+	public class #SCRIPTNAME#: MonoBehaviour
+	{
+		public static #SCRIPTNAME# instance;
+	
+		private void Awake()
+		{
+			if(instance == null)
+				instance = this;
+			else
+				Destroy(gameObject);
+		}
+	}
+}
